@@ -1,0 +1,26 @@
+# conda environment description for PaleoHackathon
+#
+# Create a conda environment in which the notebooks in this repo can be run
+# with
+#
+#   $ conda env create -f environment.yaml
+#   $ source activate paleo-hackathon
+
+name: paleo-hackathon
+
+channels:
+  - conda-forge
+
+dependencies:
+  - cartopy
+  - cmocean
+  - gsw
+  - ipywidgets
+  - jupyterlab
+  - matplotlib
+  - pip
+  - python
+  - scikit-learn
+  - scipy
+  - tqdm
+  - xarray
